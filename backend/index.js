@@ -9,7 +9,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PORT = process.env.PORT || 5000;
+const corsOptions = { 
+  origin: process.env.FRONTEND_URL || 'https://localhost:3000',
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 
 // routes
 const productRoutes = require('./routes/productRoutes');

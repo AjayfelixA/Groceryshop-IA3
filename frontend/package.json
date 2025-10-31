@@ -10,17 +10,11 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.1",
-    "react-scripts": "5.0.1"
-=======
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "^0.0.0",
     "web-vitals": "^3.0.0"
->>>>>>> 3ff0fee76e5c0bc5fbffe3b6492d7b7526e1d01b
   },
   "browserslist": {
     "production": [
